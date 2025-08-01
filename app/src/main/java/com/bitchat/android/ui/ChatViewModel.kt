@@ -318,7 +318,7 @@ class ChatViewModel(
 
         // Update peer RSSIs
         val rssi = meshService.getPeerRSSI()
-        Log.d("!!!", "RSSI: $rssi")
+        Log.d(TAG, "Peer RSSI: $rssi")
         state.setPeerRSSIs(rssi)
     }
     

@@ -65,8 +65,6 @@ fun MessagesList(
                     }
                 }
 
-                Log.d("!!!", "signalColor: ${signalColor}, currentUserNickname: $currentUserNickname, Message Draw: $message")
-
                 key(message.content, currentUserNickname, signalColor) {
                     MessageItem(
                         message = message,
